@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}Kasse{% endblock %}
+{% block content %}
+<h1 class="text-2xl font-bold mb-6">Kasse</h1>
+{% if products %}
+<table class="min-w-full mb-4">
+  <thead>
+    <tr>
+      <th class="text-left">Produkt</th>
+      <th>Menge</th>
+      <th>Preis</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in products %}
+    <tr>
+      <td>{{ item.product.name }}</td>
+      <td>{{ item.qty }}</td>
+      <td>{{ "%.2f"|format(item.product.price * item.qty) }} €</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+<p class="font-bold mb-2">Gesamt: {{ "%.2f"|format(total) }} €</p>
+{% if discount and discount > 0 %}
+  <p class="text-green-700 mb-2">Firmenkundenrabatt (5%): -{{ "%.2f"|format(discount) }} €</p>
+  <p class="font-bold mb-2">Gesamt nach Rabatt: {{ "%.2f"|format(total_after_discount) }} €</p>
+{% endif %}
+{% if shipping_method %}
+  <p class="mb-2">Liefermethode: 
+    {% if shipping_method == 'pickup' %}Abholung (0 €){% endif %}
+    {% if shipping_method == 'standard' %}Standardlieferung (6 €){% endif %}
+    {% if shipping_method == 'express' %}Expresslieferung (11 €){% endif %}
+  </p>
+{% endif %}
+{% if shipping_cost is defined %}
+  <p class="mb-2">Lieferkosten: {{ "%.2f"|format(shipping_cost) }} €</p>
+  <p class="font-bold mb-4">Gesamt inkl. Lieferung: {{ "%.2f"|format(total_with_shipping) }} €</p>
+{% endif %}
+<form method="POST">
+  <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded">Kauf abschließen</button>
+</form>
+{% else %}
+<p>Dein Warenkorb ist leer.</p>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{% block title %}Webshop Warenwelt{% endblock %}</title>
+	<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}"></head>
+
+<body>
+	
+	<div id="div3" class="class3"></div>
+	<div id="div6" class="class3">Onlineshop Warenwelt
+		<div id="div13" class="class22">Bücher</div>
+		<div id="div14" class="class22">Elektronik</div>
+		<div id="div15" class="class22">Kleidung</div>
+	</div>
+	
+	<!--<a><img src="{{ url_for('static', filename='/images/cart.png') }}" alt="Warenkorb" id="img17"></a>
+-->
+	<div id="div20" class="class21"><a href="warenkorb">Waren</a></div>
+	
+	
+	<a href="buecher.html"><img src="static/images/buch.jpg" id="img18"></a>
+	    
+	<a href="elektronik"><img  src="{{ url_for('static', filename='images/laptop.jpg') }}" id="img19" alt="Laptops"></a>
+	<img src="{{ url_for('static', filename='images/levis.jfif') }}" id="img20">
+	<div id="div21" class="class21"><a href="login">Login</a></div>
+	<div id="div22" class="class21"><a href ="registrierung">Registrieren</a></div>
+	<div id="div32" class="class24">Willkommen</div>
+	{% block content %}
+	<a id="div23" class="class22" href="buecher">Bücher</a>
+	{% endblock %}
+<!--	<div id="div23" class="class22"><a href="buecher.html">Bücher</a></div>
+-->	<div id="div24" class="class22"><a href="elektronik">Elektronik</a></div>
+	<div id="div25" class="class22"><a href="kleidung">Kleidung</a></div>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="js/main.js"></script>
+
+	
+</body>
+</html>
+<!--<img src="img/cart.png" id="img17">-->

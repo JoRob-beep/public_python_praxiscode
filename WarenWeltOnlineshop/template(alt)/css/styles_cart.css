@@ -1,0 +1,239 @@
+body {
+	overflow: hidden;
+	background-color: rgb(255, 255, 255);
+}
+
+.class3 {
+	display: flex;
+	position: absolute;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+	color: rgb(0, 0, 0);
+	overflow: hidden;
+	border: solid rgb(0, 0, 0) 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2.83vw;
+	padding: 0px;
+	margin: 0px;
+	user-select: none;
+}
+
+.class13 {
+	display: flex;
+	position: absolute;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+	z-index: 12;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2.83vw;
+	padding: 0px;
+	margin: 0px;
+	user-select: none;
+}
+
+.class21 {
+	display: flex;
+	position: absolute;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+	height: 5.46%;
+	z-index: 9;
+	color: rgb(0, 0, 0);
+	overflow: hidden;
+	background-color: rgb(255, 255, 255);
+	border: solid rgb(0, 0, 0) 0px;
+	border-radius: 55px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2.83vw;
+	padding: 0px;
+	margin: 0px;
+	user-select: none;
+}
+
+#div3 {
+	top: 1.82%;
+	left: 2.37%;
+	width: 95.82%;
+	height: 11.60%;
+	z-index: 9;
+	background-color: rgb(100, 175, 204);
+	border-radius: 55px;
+}
+
+#div6 {
+	top: 1.83%;
+	left: 7.23%;
+	width: 35.39%;
+	height: 11.59%;
+	z-index: 10;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+#div13 {
+	top: 101.32%;
+	left: 2.40%;
+	width: 237.53%;
+	height: 72.34%;
+	color: rgb(138, 138, 138);
+	background-color: rgba(141, 135, 135, 0);
+	border: solid rgb(131, 131, 131) 0px;
+}
+
+#img17 {
+	display: block;
+	position: absolute;
+	top: 1.84%;
+	left: 83.08%;
+	width: 10.14%;
+	height: 13.21%;
+	z-index: 9;
+	color: rgb(0, 0, 0);
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0);
+	border: solid rgb(0, 0, 0) 0px;
+	margin: 0px;
+}
+
+#div21 {
+	top: 4.98%;
+	left: 44.15%;
+	width: 14.06%;
+}
+
+#div22 {
+	top: 4.93%;
+	left: 60.35%;
+	width: 20.54%;
+}
+
+#div23 {
+	display: flex;
+	position: absolute;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+	top: 2.42%;
+	left: 81.97%;
+	width: 11.91%;
+	height: 10.84%;
+	z-index: 9;
+	color: rgb(0, 0, 0);
+	overflow: hidden;
+	background-color: rgb(100, 175, 204);
+	border: solid rgba(0, 0, 0, 0) 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2.83vw;
+	padding: 0px;
+	margin: 0px;
+	user-select: none;
+}
+
+#div24 {
+	top: 25.27%;
+	left: 2.69%;
+	width: 40.96%;
+	height: 12.34%;
+	color: rgb(0, 0, 0);
+	background-color: rgba(141, 135, 135, 0.548);
+	border: solid rgb(0, 0, 0) 0px;
+}
+
+#div25 {
+	top: 25.27%;
+	left: 30.66%;
+	width: 61.96%;
+	height: 12.34%;
+	color: rgb(138, 138, 138);
+	background-color: rgba(141, 135, 135, 0);
+	border: solid rgb(0, 0, 0) 0px;
+}
+
+#div26 {
+	top: 25.27%;
+	left: 50.62%;
+	width: 61.96%;
+	height: 12.34%;
+	color: rgb(138, 138, 138);
+	background-color: rgba(141, 135, 135, 0);
+	border: solid rgb(0, 0, 0) 0px;
+}
+
+#div27 {
+	top: 40.06%;
+	left: 2.32%;
+	width: 40.96%;
+	height: 12.34%;
+	color: rgb(0, 0, 0);
+	background-color: rgba(134, 134, 134, 0.486);
+	border: solid rgb(0, 0, 0) 0px;
+}
+
+#div28 {
+	top: 370.06%;
+	left: 64.28%;
+	width: 61.96%;
+	height: 72.34%;
+	color: rgb(138, 138, 138);
+	background-color: rgba(141, 135, 135, 0);
+	border: solid rgb(0, 0, 0) 0px;
+}
+
+#div29 {
+	top: 370.06%;
+	left: 126.24%;
+	width: 61.96%;
+	height: 72.34%;
+	color: rgb(138, 138, 138);
+	background-color: rgba(141, 135, 135, 0);
+	border: solid rgb(0, 0, 0) 0px;
+}
+
+#div30 {
+	top: 467.13%;
+	left: 2.32%;
+	width: 61.96%;
+	height: 72.34%;
+	color: rgb(138, 138, 138);
+	background-color: rgba(141, 135, 135, 0);
+	border: solid rgb(0, 0, 0) 0px;
+}
+
+#div31 {
+	top: 465.86%;
+	left: 64.28%;
+	width: 61.96%;
+	height: 72.18%;
+	color: rgb(138, 138, 138);
+	background-color: rgba(141, 135, 135, 0);
+	border: solid rgb(0, 0, 0) 0px;
+}
+
+#div32 {
+	top: 467.26%;
+	left: 125.97%;
+	width: 61.96%;
+	height: 72.34%;
+	color: rgb(138, 138, 138);
+	background-color: rgba(141, 135, 135, 0);
+	border: solid rgb(0, 0, 0) 0px;
+}
+
+#div33 {
+	top: 572.53%;
+	left: 16.17%;
+	width: 161.04%;
+	height: 72.34%;
+	color: rgb(0, 0, 0);
+	background-color: rgb(236, 241, 168);
+	border: solid rgb(0, 0, 0) 1px;
+}
+
+#div34 {
+	top: 17.93%;
+	left: 35.35%;
+	width: 25.54%;
+}

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}{{ product.name }}{% endblock %}
+{% block content %}
+<!-- Container für die Produktdetailseite -->
+<div class="max-w-xl mx-auto mt-8">
+  <!-- Produktbild -->
+  <img src="{{ product.image_url }}" alt="{{ product.name }}" class="h-64 w-full object-cover mb-4"/>
+  <!-- Produktname -->
+  <h1 class="text-2xl font-bold">{{ product.name }}</h1>
+  <!-- Produktbeschreibung -->
+  <p class="text-gray-700 my-2">{{ product.description }}</p>
+  <!-- Produktpreis -->
+  <p class="text-lg font-semibold mb-4">{{ product.price }} €</p>
+  <!-- Button zum Hinzufügen in den Warenkorb -->
+  <a href="{{ url_for('views.add_to_cart', product_id=product.id) }}" class="bg-green-500 text-white px-4 py-2 rounded">In den Warenkorb</a>
+</div>
+{% endblock %}

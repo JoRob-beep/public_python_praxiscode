@@ -1,0 +1,253 @@
+body {
+	overflow: hidden;
+	background-color: rgb(255, 255, 255);
+}
+
+.class3 {
+	display: flex;
+	position: absolute;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+	color: rgb(0, 0, 0);
+	overflow: hidden;
+	border: solid rgb(0, 0, 0) 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2.83vw;
+	padding: 0px;
+	margin: 0px;
+	user-select: none;
+}
+
+.class13 {
+	display: flex;
+	position: absolute;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+	width: 68.32%;
+	height: 72.40%;
+	z-index: 12;
+	color: rgb(138, 138, 138);
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2.83vw;
+	padding: 0px;
+	margin: 0px;
+	user-select: none;
+}
+
+.class21 {
+	display: flex;
+	position: absolute;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+	height: 5.46%;
+	z-index: 9;
+	color: rgb(0, 0, 0);
+	overflow: hidden;
+	background-color: rgb(255, 255, 255);
+	border: solid rgb(0, 0, 0) 0px;
+	border-radius: 55px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2.83vw;
+	padding: 0px;
+	margin: 0px;
+	user-select: none;
+}
+
+.class22 {
+	display: flex;
+	position: absolute;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+	height: 5.46%;
+	z-index: 9;
+	color: rgb(0, 0, 0);
+	overflow: hidden;
+	background-color: white;
+	border: solid rgb(0, 0, 0) 0px;
+	border-radius: 55px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2.83vw;
+	padding: 0px;
+	margin: 0px;
+	user-select: none;
+}
+.class23 {
+	display: flex;
+	position: absolute;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+	height: 5.46%;
+	z-index: 9;
+	color: rgb(0, 0, 0);
+	overflow: hidden;
+	background-color: rgb(219, 208, 47);
+	border: solid rgb(0, 0, 0) 0px;
+	border-radius: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2.40vw;
+	padding: 0px;
+	margin: 0px;
+	user-select: none;
+}
+
+#div3 {
+	top: 1.84%;
+	left: 2.37%;
+	width: 95.82%;
+	height: 11.60%;
+	z-index: 9;
+	background-color: rgb(100, 175, 204);
+	border-radius: 55px;
+}
+
+#div6 {
+	top: 1.83%;
+	left: 7.23%;
+	width: 35.39%;
+	height: 11.59%;
+	z-index: 10;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+#div13 {
+	top: 144.31%;
+	left: 4.53%;
+	background-color: rgba(141, 135, 135, 0);
+	border: solid rgb(131, 131, 131) 0px;
+}
+
+#div14 {
+	top: 143.07%;
+	left: 91.21%;
+	background-color: rgba(147, 147, 147, 0);
+	border: solid rgb(0, 0, 0) 0px;
+}
+
+#div15 {
+	top: 141.63%;
+	left: 173.33%;
+	background-color: rgba(124, 124, 124, 0);
+	border: solid rgb(0, 0, 0) 0px;
+}
+
+#img17 {
+	display: block;
+	position: absolute;
+	top: 1.84%;
+	left: 83.08%;
+	width: 10.14%;
+	height: 13.21%;
+	z-index: 9;
+	color: rgb(0, 0, 0);
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0);
+	border: solid rgb(0, 0, 0) 0px;
+	margin: 0px;
+}
+
+#img18 {
+	display: block;
+	position: absolute;
+	top: 26.98%;
+	left: 13.68%;
+	width: 15.00%;
+	height: 30.00%;
+	z-index: 9;
+	color: rgb(0, 0, 0);
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0);
+	border: solid rgb(0, 0, 0) 0px;
+	margin: 0px;
+}
+
+#img19 {
+	display: block;
+	position: absolute;
+	top: 26.83%;
+	left: 43.70%;
+	width: 16.62%;
+	height: 30.00%;
+	z-index: 9;
+	color: rgb(0, 0, 0);
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0);
+	border: solid rgb(0, 0, 0) 0px;
+	margin: 0px;
+}
+
+#img20 {
+	display: block;
+	position: absolute;
+	top: 26.66%;
+	left: 71.21%;
+	width: 18.78%;
+	height: 30.00%;
+	z-index: 9;
+	color: rgb(0, 0, 0);
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0);
+	border: solid rgb(0, 0, 0) 0px;
+	margin: 0px;
+}
+
+#div21 {
+	top: 4.98%;
+	left: 44.15%;
+	width: 14.06%;
+}
+
+#div22 {
+	top: 4.93%;
+	left: 60.35%;
+	width: 20.54%;
+}
+
+
+
+#div23 {
+	top: 54.93%;
+	left: 12.35%;
+	width: 20.54%;
+}
+#div24 {
+	top: 54.93%;
+	left: 40.35%;
+	width: 20.54%;
+}
+#div25 {
+	top: 54.93%;
+	left: 70.35%;
+	width: 20.54%;
+}
+
+#div32 {
+	top: 17.93%;
+	left: 35.35%;
+	width: 25.54%;
+}
+
+.class24 {
+	display: flex;
+	position: absolute;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+	height: 5.46%;
+	z-index: 9;
+	color: rgb(0, 0, 0);
+	overflow: hidden;
+	background-color: #64afccff;
+	border: solid rgb(0, 0, 0) 0px;
+	border-radius: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2.40vw;
+	padding: 0px;
+	margin: 0px;
+	user-select: none;
+}

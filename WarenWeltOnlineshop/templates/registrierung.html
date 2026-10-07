@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Onlineshop Warenwelt</title>
+	<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+	<link rel="stylesheet" href="{{ url_for('static', filename='styles_reg.css') }}">
+</head>
+
+<body>
+	<div id="div3" class="class3"></div>
+	<div id="div6" class="class3"><a href="index">Onlineshop Warenwelt</a>
+		<div id="div13" class="class13">&gt; Registrieren &lt;</div>
+		<div id="div33" class="class13">Speichern</div>
+	</div>
+	<!--<img src="img/cart.png" id="img17">-->
+	<div id="div20" class="class21"><a href="warenkorb">Waren</a></div>
+
+	<div id="div21" class="class21"><a href="{{ url_for('logout') }}">{{ logout_text }}</a></div>
+	<div id="div22" class="class21">Registrieren</div>
+	<div id="div23"></div>
+	<input type="text" id="input34" value="Namen eingeben">
+	<div id="div36">Name</div>
+	<input type="text" id="input37" value="Adresse eingeben">
+	<div id="div38">Adresse</div>
+	<input type="text" id="input39" value="Telefonnummer eingeben">
+	<div id="div40">Telefon</div>
+	<input type="text" id="input43" value="Email eingeben">
+	<div id="div44">Email</div>
+	<input type="text" id="input45" value="FaNr. eingeben">
+	<div id="div46">Firmennummer</div>
+	<input type="text" id="input47" value="Passwort eingeben">
+	<div id="div48">Passwort</div>
+
+	<!--<div id="div50" class="class49">&gt; Registrieren &lt;</div>-->
+	<div id="div49" class="class49"><a href="after_reg">Speichern</a></div>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
